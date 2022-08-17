@@ -460,8 +460,12 @@ body {
 @media (max-width: 414px) {
     .navbar>.socials>a>i {
         margin: 0 10px;
-        font-size: 24px;
+        font-size: 20px;
         transition: 800ms;
+    }
+
+    .navbar>.logo {
+        height: 3rem;
     }
 
     .hero {
@@ -556,7 +560,7 @@ body {
     }
 
     .footer>.logo {
-        height: 4rem;
+        height: 3rem;
     }
 
     .footer>.logo>a>img {
@@ -570,7 +574,7 @@ body {
 
     .footer>.socials>a>i {
         margin: 0 20px;
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .footer>.socials>a>.fa-brands:hover {
