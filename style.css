@@ -86,7 +86,7 @@ body {
     animation-iteration-count: infinite;
 }
 
-.hero>img {
+.hero>svg {
     width: 45%;
 }
 
@@ -271,6 +271,43 @@ body {
     }
 }
 
+#storm{
+    animation: flicker-1 2s linear infinite both;
+    fill: white;
+}
+
+@keyframes flicker-1 {
+    0%,
+    100% {
+      opacity: 0;
+    }
+    41.99% {
+      opacity: 0;
+    }
+    42% {
+      opacity: 1;
+    }
+    43% {
+      opacity: 1;
+    }
+    43.01% {
+      opacity: 0;
+    }
+    47.99% {
+      opacity: 0;
+    }
+    48% {
+      opacity: 1;
+    }
+    49% {
+      opacity: 1;
+    }
+    49.01% {
+      opacity: 0;
+    }
+  }
+  
+
 @media (max-width: 1082px) {
     .hero {
         margin-top: 100px;
@@ -289,7 +326,7 @@ body {
         text-align: center;
     }
 
-    .hero>img {
+    .hero>svg {
         width: 80%;
     }
 
@@ -480,7 +517,7 @@ body {
         text-align: center;
     }
 
-    .hero>img {
+    .hero>svg {
         width: 100%;
     }
 
