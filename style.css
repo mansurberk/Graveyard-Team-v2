@@ -86,7 +86,10 @@ body {
     animation-iteration-count: infinite;
 }
 
-.hero>svg {
+.hero>.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 45%;
 }
 
@@ -326,7 +329,7 @@ body {
         text-align: center;
     }
 
-    .hero>svg {
+    .hero>.img {
         width: 80%;
     }
 
@@ -517,7 +520,7 @@ body {
         text-align: center;
     }
 
-    .hero>svg {
+    .hero>.img {
         width: 100%;
     }
 
